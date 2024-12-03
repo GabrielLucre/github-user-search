@@ -1,0 +1,48 @@
+.repo {
+  background-color: #2b3137;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.2rem;
+  flex: 1 0 50%;
+  margin-bottom: 1rem;
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+}
+
+.stats div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 3px;
+  padding-right: 0.4rem;
+}
+
+.stats svg {
+  background-color: #4ed8c7;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 2rem;
+}
+
+.repo_btn {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: #fafbfc;
+  background-color: #24292e;
+  border-radius: 5px;
+  gap: 0.5rem;
+  opacity: 0.8;
+}
+
+.repo_btn:hover {
+  opacity: 1;
+}
